@@ -17,9 +17,11 @@ def price_fetcher(symbol):
 x = 0
 
 while True:
+  data_file = open("data_file.txt","a+")
   print(x)
   curr_price =  str(price_fetcher("WIPRO"))
   print(curr_price)
   data_file.write(curr_price)
   x+=1
   time.sleep(10)
+  data_file.close()
