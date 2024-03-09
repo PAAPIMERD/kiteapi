@@ -17,6 +17,6 @@ x = 0
 
 while True:
   print(x)
-  price_fetcher("WIPRO")
+  print(price_fetcher("WIPRO"))
   x+=1
   time.sleep(10)
