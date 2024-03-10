@@ -31,21 +31,7 @@ while True:
   data_file.write(current_time)
   data_file.write("\n")
   x+=1
-  order = kite.place_order(variety=kite.VARIETY_REGULAR,
-                         exchange=kite.EXCHANGE_NSE,
-                         tradingsymbol="IDEA",
-                         transaction_type=kite.TRANSACTION_TYPE_BUY,
-                         quantity=5,
-                         product=kite.PRODUCT_MIS,
-                         order_type=kite.ORDER_TYPE_MARKET,
-                         price=None,
-                         validity=None,
-                         disclosed_quantity=None,
-                         trigger_price=None,
-                         squareoff=None,
-                         stoploss=None,
-                         trailing_stoploss=None,
-                         tag="TradeViaPython")
+
 
   time.sleep(5)
   data_file.close()
