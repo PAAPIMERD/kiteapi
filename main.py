@@ -33,7 +33,7 @@ while True:
   x+=1
 
 
-  time.sleep(5)
+
   data_file.close()
 
 
