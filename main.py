@@ -6,7 +6,7 @@ import time
 data_file = open("data_file.txt","a+")
 
 #authentication
-enctoken = "kj6OsLUHjPzRUrF5aF/l56q6n8xsnzwea+MIsVIArQyXoGfJRKpR4M81bFm9oc8u3bu2MWXuHpWnu9szPg7kNaOuO4Xw8DN4ahl967/b9eYPWCqvz5eioA=="
+enctoken = "T7POWdwB0lyH70I+IllQtwK8T5FFqSsLzRKW6YdQEdTHKzql3nzAdoWVOg1OJRoRd/0ueECDBNEARtn0MS9v+EQmJ6bp0iqv9O3STap/fT9wV//EDHhEnw=="
 kite = KiteApp(enctoken=enctoken)
 
 def price_fetcher(symbol):
